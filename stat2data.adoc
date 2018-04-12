@@ -22,6 +22,8 @@
 ====
 
 
+
+
 == 理論
 
 \(n\)個のサンプルの最初の2つの拘束条件は,
@@ -135,7 +137,7 @@
 まず, サンプルの下限と上限の条件はそれぞれ, X-Y-Z空間上の正四面体によって表すことができる.
 
 .Y軸方向から2つの正四面体を見た様子
-image::./image/tetrahedrons.png[]
+image::./image/tetrahedrons.PNG[]
 
 球の半径を\(R\)とおく.
 サンプルの平均, 下限値, 上限値をそれぞれ\(\mu, x_{min}, x_{max}\)とし, 次の変数\(m, l\)を導入する. すなわち,
@@ -191,7 +193,7 @@ image::./image/tetrahedrons.png[]
 . 断面が現れない
 
 .2つの正四面体によって球面が切られるときの断面の小円の関係
-image::./image/intersects.png[]
+image::./image/intersects.PNG[]
 
 
 以下では, 四面体の内部に存在する球面上の点を円筒座標\((r,\theta,Z)\)で取得するためのPython(v. 3)コードを示す.
